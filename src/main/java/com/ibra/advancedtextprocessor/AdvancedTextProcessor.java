@@ -139,7 +139,7 @@ public class AdvancedTextProcessor extends Application {
 
         // Text input area
         mainInputTextArea = new TextArea();
-        mainInputTextArea.setPrefRowCount(50);
+        mainInputTextArea.setPrefRowCount(10);
         mainInputTextArea.setPromptText("Enter text to process here...");
         mainInputTextArea.setWrapText(true);
 
